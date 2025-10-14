@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE llibreria [
+    <!ELEMENT llibreria (llibres, revistes)>
+    <!ELEMENT llibres (llibre*)>
+    <!ELEMENT llibre EMPTY>
+    <!ATTLIST llibre
+        titol CDATA #REQUIRED
+        autor CDATA #IMPLIED>
+    <!ELEMENT revistes (revista*)>
+    <!ELEMENT revista EMPTY>
+    <!ATTLIST revista
+        nom CDATA #REQUIRED
+        periodicitat (diari | setmanal | mensual) #IMPLIED>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Pagina de Edim Batalla</title>
+    <style>
+        /* Estils bàsics per distribuir el contingut */
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: grey;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header, footer {
+            background-color: grey;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgb(0, 0, 0, 2);
+            background-color: firebrick;
+            margin:20px;
+        }
+
+
+        nav {
+            padding: 0px;
+            text-align: center;
+            background-color: lightgray;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgb(0, 0, 0, 2);
+            float: left;
+            
+        }
+        nav > p {
+            font-weight: bold;
+        }
+
+            nav ul {
+                list-style-type: none; /* Eliminem els punts de la llista */
+                padding: 10px;
+                margin-bottom:10px;
+                overflow: hidden; 
+            }
+
+                nav ul li {
+                    float:left;
+                    display: inline; /* Col·loquem els elements de la llista en línia */
+                    margin: 0 15px; /* Afegim espai entre els enllaços */
+                }
+                nav li a {
+                    display: block; 
+                    padding: 20px;
+                    color: black;
+                    text-decoration: none;
+                }
+                nav ul li:hover {
+                    background: firebrick;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgb(0, 0, 0, 2);
+                
+                }
+
+        main {
+            display: flex;
+            margin: 20px;
+            float: right;
+            display: flex;
+            flex-direction: row; /* Cambia a fila para alinear <article> y <aside> */
+            max-width: 1200px;
+            gap: 20px;
+            padding: 1em;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgb(0, 0, 0, 2);
+            background-color: firebrick;
+        }
+
+        article {
+            flex: 3;
+            padding: 20px;
+            background-color: lightgray;
+            margin-right: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgb(0, 0, 0, 2);
+        }
+
+        section {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgb(0, 0, 0, 2);
+        }
+
+        aside {
+            flex: 1;
+            padding: 20px;
+            background-color: lightgray;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgb(0, 0, 0, 2);
+            margin:20px
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: grey;
+        }
+
+        img {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgb(0, 0, 0, 2);
+            transform: scale(var(--escala, 1));
+            transition: transform 0.25s;
+            max-width: 50%;
+            margin: 60px;
+            display: flex;
+        }
+
+        img:hover{
+            --escala: 1.2;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Edim Batalla</h1>
+        <p>Estudiant de DAM i apassionat pels esports de muntanya.</p>
+    </header>
+
+    <!-- NAV -->
+    <nav>
+        <p>Menú de navegació</p>
+        <ul>
+            <li><a href="#inici">Inici</a></li>
+            <li><a href="#projectes">Projectes</a></li>
+            <li><a href="#contacte">Contacte</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTINGUT PRINCIPAL I ASIDE AL COSTAT -->
+    <main id="projectes">
+        <h2>Projecte Personals:</h2>
+
+        <!-- ARTICLE -->
+        <article>
+            <h2>Trails de muntanya</h2>
+            <p>En aquest exercisi exploro les possibilitats que m'ofereix la classe de Llenguatge de Marques per publicar i compartir els meus projectes personals.</p>
+
+            <!-- SECTION DINS L'ARTICLE -->
+            <section>
+                <h3>1.Trail Puerta del Infierno 02/11/2024</h3>
+                <p>Aquest any he participat en el meu primer trail de muntanya. Una carrera de 13,200 km i un desnivell positiu de 800 m a la localitat de Fuertescusa, Serranía de Cuenca.</p>
+                <p>Ha sigut una experiencia molt bonica i que espero poder repetir moltes vegades en el futur.</p>
+            </section>
+
+
+        </article>
+
+        <!-- ASIDE -->
+        <aside>
+            <h3>Links d'interès</h3>
+            <ul>
+                <li><a href="https://www.trailpuertadelinfierno.com/">Web Trail Puerta del Infierno</a></li>
+                <li><a href="https://www.fuertescusa.org/0101.php">Web oficicial de Fuertescusa</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Fuertescusa">Wikipedia de Fuertescusa</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- FIGURE I FIGCAPTION -->
+    <figure>
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczMXqWZX5zmFBLO3msjV7snIbEDtC-oh9rwxlpPY_lGE3Br07qIGni6QaR4bEbPztnYmUlVyACfZVsJuk3MPTyHToiF1AkUr1WGJKtrsrmnbIj89PkzeD3kqxQwIy67-V-8wTX-8HG659K_XX9uX_gWw=w721-h961-s-no-gm?authuser=0" alt="Foto 1 participant en el Trail Puerta del Infierno">
+        <figcaption>Fotos en moments del trail.</figcaption>
+    </figure>
+
+    <!-- TIME -->
+    <p>Última actualització: <time datetime="2024-11-07">07 de Novembre de 2024</time></p>
+
+    <!-- FOOTER -->
+    <footer id="contacte">
+        <p>Edim 2024 &copy; Tots els drets reservats.</p>
+        <p>Contacte: <a href="mailto:edim.batalla@gmail.com">edim.batalla@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>

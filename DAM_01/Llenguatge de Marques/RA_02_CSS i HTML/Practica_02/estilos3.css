@@ -1,0 +1,72 @@
+persona nom{
+display:block;
+}
+persona edat{
+display:block;
+}
+
+persona nom:before {
+	content: "Nom: ";
+}
+ 
+persona edat:before {
+	content: "Edat: ";
+}
+
+persona:after {
+	content:" Sexe: " attr(sexe);
+	display: block;
+	margin-bottom: 10px;
+}
+/* Estils per a la nova divisió */
+.nueva-div {
+    border: 2px solid #000; /* Bord de 2 píxels, color negre */
+    padding: 10px; /* Espai dins de la divisió */
+    margin-bottom: 15px; /* Margen a la part inferior */
+}
+
+/* Altres estils que ja tens */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.guion {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #0056b3;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #007bff;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+strong {
+    font-weight: bold;
+    color: #ff6347; /* Un color càlid per als noms de les persones */
+}

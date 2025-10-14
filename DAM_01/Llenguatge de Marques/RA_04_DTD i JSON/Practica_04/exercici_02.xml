@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE universitat PUBLIC "-//EXEMPLE//DTD Universitat//EN" "exercici_02.dtd">
+
+<universitat>
+    <estudiant rol="delegat">
+        <nom>Joan</nom>
+        <cognom>Pérez</cognom>
+    </estudiant>
+    <estudiant>
+        <nom>Maria</nom>
+        <cognom>López</cognom>
+    </estudiant>
+    <professor categoria="Matemàtiques">
+        <nom>Anna</nom>
+        <cognom>García</cognom>
+    </professor>
+    <professor categoria="Història">
+        <nom>Carles</nom>
+        <cognom>Martí</cognom>
+    </professor>
+</universitat>

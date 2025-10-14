@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <llibre id="1" publicat="2020">
+        <titol>El Quixot</titol>
+        <autor>Miguel de Cervantes</autor>
+        <genere>Novel·la</genere>
+    </llibre>
+    <llibre id="2" publicat="1967">
+        <titol>Crónica de una muerte anunciada</titol>
+        <autor>Gabriel García Márquez</autor>
+        <genere>Novel·la</genere>
+    </llibre>
+    <autor id="aut1">
+        <nom>Miguel de Cervantes</nom>
+        <nacionalitat>Espanya</nacionalitat>
+    </autor>
+    <autor id="aut2">
+        <nom>Gabriel García Márquez</nom>
+        <nacionalitat>Colòmbia</nacionalitat>
+    </autor>
+</biblioteca>

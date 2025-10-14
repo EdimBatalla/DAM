@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilos7.css"?>
+
+<universitat>
+	<facultat>
+		<nom>Facultat d'Informàtica</nom>
+		<departament>
+			<nom>Ciència de la Computació</nom>
+			<professor>
+				<nom>Maria Vidal</nom>
+				<càrrec>Professora Titular</càrrec>
+				<assignatures>
+					<assignatura>
+					<nom>Algoritmes</nom>
+					<credits>6</credits>
+					</assignatura>
+					<assignatura>
+					<nom>Enginyeria del Software</nom>
+					<credits>6</credits>
+					</assignatura>
+				</assignatures>
+			</professor>
+		</departament>
+		<departament>
+			<nom>Enginyeria de Sistemes</nom>
+			<professor>
+				<nom>Pere Soler</nom>
+				<càrrec>Catedràtic</càrrec>
+				<assignatures>
+					<assignatura>
+					<nom>Sistemes Operatius</nom>
+					<credits>6</credits>
+					</assignatura>
+					<assignatura>
+					<nom>Arquitectura de Computadors</nom>
+					<credits>6</credits>
+					</assignatura>
+				</assignatures>
+			</professor>
+		</departament>
+	</facultat>
+</universitat>

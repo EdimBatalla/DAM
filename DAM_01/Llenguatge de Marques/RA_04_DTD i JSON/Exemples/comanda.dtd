@@ -1,0 +1,20 @@
+<!ELEMENT comanda (client, articles, total) >
+<!ATTLIST comanda numero NMTOKEN #REQUIRED >
+<!ATTLIST comanda dia NMTOKEN #REQUIRED>
+ 
+<!ELEMENT client (nom,cognom) >
+<!ATTLIST client codi NMTOKEN #IMPLIED >
+ 
+<!ELEMENT total EMPTY>
+<!ATTLIST total valor CDATA #REQUIRED >
+ 
+<!ELEMENT articles (article+)>
+<!ELEMENT article (descripció, quantitat, preu)>
+ 
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognom (#PCDATA)>
+<!ELEMENT descripció (#PCDATA)>
+<!ELEMENT quantitat (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+
+

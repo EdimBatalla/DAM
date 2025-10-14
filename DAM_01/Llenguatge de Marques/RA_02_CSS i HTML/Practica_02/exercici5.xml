@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilos5.css"?>
+
+<llista>
+	<element>Primer element</element>
+	<element>Segon element</element>
+	<element>Tercer element</element>
+	<element>Quart element</element>
+	<element>Cinquè element</element>
+	<element>Sisè element</element>
+</llista>
+

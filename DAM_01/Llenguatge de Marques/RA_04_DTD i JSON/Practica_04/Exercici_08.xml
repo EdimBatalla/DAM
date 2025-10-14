@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empresa SYSTEM "Exercici_08.dtd">
+<empresa>
+    <empleat id="e1" nom="Joan" posicio="Developer">
+        <projecte id="p1" nom="WebApp"/>
+        <projecte id="p2" nom="MobileApp"/>
+    </empleat>
+    <empleat id="e2" nom="Anna" posicio="Manager">
+        <projecte id="p1" nom="WebApp"/>
+    </empleat>
+    <empleat id="e3" nom="Carlos" posicio="Tester">
+        <projecte id="p3" nom="API"/>
+    </empleat>
+</empresa>

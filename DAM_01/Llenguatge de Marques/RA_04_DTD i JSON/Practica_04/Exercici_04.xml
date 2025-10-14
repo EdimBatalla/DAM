@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "Exercici_04.dtd">
+
+<biblioteca>
+    <llibre isbn="id0001" any="2020">
+        <titol>El nom del vent</titol>
+        <autor>Patrick Rothfuss</autor>
+    </llibre>
+    <llibre isbn="id0002">
+        <titol>1984</titol>
+        <autor>George Orwell</autor>
+    </llibre>
+    <llibre isbn="id003" any="2018">
+        <titol>Origen</titol>
+        <autor>Dan Brown</autor>
+    </llibre>
+</biblioteca>

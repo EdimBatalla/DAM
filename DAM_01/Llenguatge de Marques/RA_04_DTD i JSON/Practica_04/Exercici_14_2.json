@@ -1,0 +1,8 @@
+{
+  "id": 1,
+  "nom": "Tauler Escacs",
+  "preu": 25,
+  "categories": ["Jocs", "Estratègia"],
+  "enEstoc": true
+}
+

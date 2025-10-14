@@ -1,0 +1,12 @@
+<!ELEMENT universitat (estudiant*, professor*)>
+<!ELEMENT estudiant (nom, cognom)>
+<!ELEMENT professor (nom, cognom)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognom (#PCDATA)>
+
+<!ATTLIST professor
+    categoria CDATA #REQUIRED>
+<!ATTLIST estudiant
+    rol (delegat | subdelegat) #IMPLIED>
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE projecte SYSTEM "Exercici_07.dtd">
+
+<projecte>
+    <nom>Desenvolupament de Software</nom>
+    <equips>
+        <equip>
+            <nom>Backend</nom>
+            <membres>
+                <membre nom="Joan" rol="developer"/>
+                <membre nom="Maria" rol="manager"/>
+            </membres>
+        </equip>
+        <equip>
+            <nom>QA</nom>
+            <membres>
+                <membre nom="Anna" rol="tester"/>
+            </membres>
+        </equip>
+    </equips>
+</projecte>

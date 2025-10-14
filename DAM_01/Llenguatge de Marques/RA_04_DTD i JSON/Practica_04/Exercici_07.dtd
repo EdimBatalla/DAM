@@ -1,0 +1,7 @@
+<!ELEMENT projecte (nom, equips)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT equips (equip+)>
+<!ELEMENT equip (nom, membres)>
+<!ELEMENT membres (membre+)>
+<!ELEMENT membre EMPTY>
+<!ATTLIST membre nom CDATA #REQUIRED rol (developer | tester | manager) #REQUIRED>

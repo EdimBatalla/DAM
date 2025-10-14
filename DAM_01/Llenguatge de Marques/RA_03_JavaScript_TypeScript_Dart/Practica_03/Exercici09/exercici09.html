@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercici09</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #dbe6e9;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    .form-container {
+      margin-bottom: 20px;
+    }
+    input[type="text"], input[type="number"] {
+      padding: 8px;
+      margin: 5px 0;
+      width: 100%;
+      max-width: 300px;
+    }
+    button {
+      padding: 10px 15px;
+      background-color: #d894c7;
+      color: rgb(0, 0, 0);
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #d87ac0;
+    }
+    .result-container {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #c7d8e0;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>BRUTAL</h1>
+
+  <!-- Formulari per introduir el nom i el número -->
+  <div class="form-container">
+    <label for="nom">Nom:</label>
+    <input type="text" id="nom" placeholder="Introdueix el teu nom">
+
+    <label for="numero">Número:</label>
+    <input type="number" id="numero" placeholder="Introdueix un número">
+    
+    <button id="afegirBtn">Afegir informació</button>
+    <button id="calcularBtn">Calcular resultat</button>
+  </div>
+
+  <!-- Resultats -->
+  <div class="result-container" id="resultats">
+    <p id="missatge"></p>
+  </div>
+
+  <script src="exercici09.js"></script>
+</body>
+</html>

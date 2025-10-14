@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilos6.css"?>
+
+<empresa>
+	<departament>
+		<nom>Desenvolupament</nom>
+		<ubicacio>Barcelona</ubicacio>
+		<empleat>
+			<nom>Jordi García</nom>
+			<edat>35</edat>
+			<càrrec>Cap de projecte</càrrec>
+			<antiguitat>10 anys</antiguitat>
+		</empleat>
+		<empleat>
+			<nom>Anna López</nom>
+			<edat>28</edat>
+			<càrrec>Programadora</càrrec>
+			<antiguitat>3 anys</antiguitat>
+		</empleat>
+	</departament>
+	<departament>
+		<nom>Vendes</nom>
+		<ubicacio>Madrid</ubicacio>
+		<empleat>
+			<nom>David Roca</nom>
+			<edat>40</edat>
+			<càrrec>Director de vendes</càrrec>
+			<antiguitat>12 anys</antiguitat>
+		</empleat>
+		<empleat>
+			<nom>Marta Ruiz</nom>
+			<edat>30</edat>
+			<càrrec>Venedora</càrrec>
+			<antiguitat>5 anys</antiguitat>
+		</empleat>
+	</departament>
+</empresa>

@@ -1,0 +1,55 @@
+universitat { 
+    text-align: center;
+    background-image:url(https://projectzomboid.com/blog/content/uploads/2024/06/image-110-1024x586.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+facultat {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    height: 100vh;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color:midnightblue;
+}
+departament {
+    display:block;
+    padding: 15px;
+    margin: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    background-color: bisque;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 2);
+    font-size: x-large;
+    color:mediumblue;
+}
+professor {
+    display:block;
+    font-size: large;
+    color:blue;
+}
+càrrec {
+font-style: italic;
+font-weight: normal;
+}
+assignatures {
+    display:block;
+    font-size:medium;
+    color:cornflowerblue;
+}
+assignatura:before {
+    content: "nom"
+    display:block;   
+}
+
+assignatura > nom {
+
+    display:block;
+}
+
+credits:after {
+    content:" credits";
+
+}

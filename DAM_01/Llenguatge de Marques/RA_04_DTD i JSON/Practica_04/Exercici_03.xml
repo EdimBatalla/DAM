@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vehicles SYSTEM "Exercici_03.dtd">
+
+<vehicles>
+    <vehicle>
+        <cotxe>BMW</cotxe>
+    </vehicle>
+    <vehicle>
+        <moto>Yamaha</moto>
+        <comentari>Nou</comentari>
+    </vehicle>
+</vehicles>

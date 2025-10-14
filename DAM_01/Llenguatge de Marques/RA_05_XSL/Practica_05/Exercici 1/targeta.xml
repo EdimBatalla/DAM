@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estil.css" ?>
+<presentacio>
+    <alumne>
+        <nom>Edim</nom>
+        <cognom>Batalla</cognom>
+        <telefon>665771839</telefon>
+        <email>edim.batalla@gmail.com</email>
+        <modul>DAM</modul>
+    </alumne>
+</presentacio>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulari Simple</title>
+</head>
+<body>
+
+<h2>Formulari d'Inscripció</h2>
+
+<form action="/submit-form" method="post">
+  <label for="nom">Nom:</label>
+  <input type="text" id="nom" name="nom" required>
+
+  <label for="cognom">Cognom:</label>
+  <input type="text" id="cognom" name="cognom" required>
+
+  <label for="edat">Edat:</label>
+  <input type="number" id="edat" name="edat" min="1" max="120" required>
+
+  <label for="genere">Gènere:</label>
+  <select id="genere" name="genere" required>
+    <option value="">Selecciona una opció</option>
+    <option value="home">Home</option>
+    <option value="dona">Dona</option>
+    <option value="altres">Altres</option>
+  </select>
+
+  <label for="ciutat">Ciutat:</label>
+  <input type="text" id="ciutat" name="ciutat" required>
+
+  <label for="email">Correu electrònic:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="telefon">Telèfon:</label>
+  <input type="tel" id="telefon" name="telefon" required>
+
+  <button type="submit">Envia el formulari</button>
+</form>
+
+</body>
+</html>

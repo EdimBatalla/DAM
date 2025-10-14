@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE llibreria SYSTEM "exercici_01.dtd">
+<llibreria>
+    <llibres>
+        <llibre titol="El Senyor dels Anells" autor="J.R.R. Tolkien"/>
+        <llibre titol="1984" autor="George Orwell"/>
+        <llibre titol="El Quixot"/>
+    </llibres>
+    <revistes>
+        <revista nom="National Geographic" periodicitat="mensual"/>
+        <revista nom="La Vanguardia" periodicitat="diari"/>
+        <revista nom="Time" periodicitat="setmanal"/>
+    </revistes>
+</llibreria>

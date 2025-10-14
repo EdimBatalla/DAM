@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="receptes.xsl"?>
+<receptes>
+    <recepta>
+        <titol>Hummus</titol>
+        <temps>10 minuts</temps>
+        <ingredients>
+            <ingredient>Cigrons</ingredient>
+            <ingredient>Oli d'oliva</ingredient>
+            <ingredient>Llimona</ingredient>
+        </ingredients>
+    </recepta>
+    <recepta>
+        <titol>Paella</titol>
+        <temps>30 minuts</temps>
+        <ingredients>
+            <ingredient>Arrós</ingredient>
+            <ingredient>Oli d'oliva</ingredient>
+            <ingredient>Carn</ingredient>
+        </ingredients>
+    </recepta>
+    <recepta>
+        <titol>Menú Hindú</titol>
+        <temps>60 minuts</temps>
+        <ingredients>
+            <ingredient>Arrós</ingredient>
+            <ingredient>Oli d'oliva</ingredient>
+            <ingredient>Curry</ingredient>
+        </ingredients>
+    </recepta>
+</receptes>
+
+

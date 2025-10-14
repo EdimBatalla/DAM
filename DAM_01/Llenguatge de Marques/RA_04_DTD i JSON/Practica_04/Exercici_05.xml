@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE noticia SYSTEM "Exercici_05.dtd">
+
+<noticia>
+El president va dir:
+<cita font="Agència Internacional">"Aquest és un gran dia per a la nostra
+organització."</cita>
+en un discurs celebrat a
+<lloc pais="Espanya">Barcelona</lloc>.
+Publicat el <data>2025-01-03</data> per
+<autor rol="periodista">Laura Martínez</autor>.
+</noticia>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comanda SYSTEM "comanda.dtd">
+<comanda numero="26" dia="2011-12-01" >
+    <client codi="20">
+        <nom>Frederic</nom>
+        <cognom>Garcia</cognom>
+    </client>
+    <articles>
+        <article>
+            <descripció>Yoda Mimobot USB Flash Drive 8GB</descripció>
+            <quantitat>5</quantitat>
+            <preu>38.99</preu>
+        </article>
+        <article>
+            <descripció>Darth Vader Half Helmet Case for iPhone</descripció>
+            <quantitat>2</quantitat>
+        <preu>29.95</preu>
+        </article>
+    </articles>
+    <total valor="254,85"/>
+    <total>254.85</total>
+</comanda>

@@ -1,0 +1,11 @@
+<!ELEMENT noticia (#PCDATA | cita | lloc | data | autor)*>
+<!ELEMENT cita (#PCDATA)>
+<!ATTLIST cita
+    font CDATA #REQUIRED>
+<!ELEMENT lloc (#PCDATA)>
+<!ATTLIST lloc
+    pais CDATA #REQUIRED>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ATTLIST autor
+    rol CDATA #REQUIRED>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empresa SYSTEM "Exercici_09.dtd">
+
+<empresa>
+<departament nom="HR">
+<empleat id="e1" posicio="Manager">
+<nom>Maria</nom>
+<email>maria@empresa.com</email>
+</empleat>
+</departament>
+<departament nom="IT">
+<empleat id="e2" posicio="Developer">
+<nom>Joan</nom>
+</empleat>
+</departament>
+</empresa>

@@ -1,0 +1,17 @@
+<libro año="2000">
+        <titulo>Data on the Web</titulo>
+        <autor>
+        	<apellido>Abiteboul</apellido>
+     	    <nombre>Serge</nombre>
+        </autor>
+        <autor>
+      	    <apellido>Buneman</apellido>
+      	    <nombre>Peter</nombre>
+        </autor>
+        <autor>
+      	    <apellido>Suciu</apellido>
+      	    <nombre>Dan</nombre>
+        </autor>
+        <editorial>Morgan Kaufmann editorials</editorial>
+        <precio>39.95</precio>
+    </libro>

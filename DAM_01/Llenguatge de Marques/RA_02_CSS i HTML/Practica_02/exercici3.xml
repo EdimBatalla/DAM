@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilos3.css"?>
+
+<personas>
+	<persona sexe="dona">
+		<nom>Anna</nom>
+		<edat>25</edat>
+	</persona>
+	<persona sexe="home">
+		<nom>Pau</nom>
+		<edat>30</edat>
+	</persona>
+</personas>

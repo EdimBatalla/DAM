@@ -1,0 +1,36 @@
+/* Estil general per a la taula */
+taula {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+/* Estil per a les files */
+fila {
+    display: table-row;
+}
+
+/* Estil per a les cel·les */
+cel·la {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+/* Colors de fons alternats */
+fila:nth-child(odd) cel·la {
+    background-color: #f2f2f2;
+}
+
+fila:nth-child(even) cel·la {
+    background-color: #ffffff;
+}
+
+/* Estil per a la primera fila (encapçalat) */
+fila:first-child cel·la {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}

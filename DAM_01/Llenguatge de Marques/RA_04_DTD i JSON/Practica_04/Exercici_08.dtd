@@ -1,0 +1,11 @@
+<!ELEMENT empresa (empleat+)>
+<!ELEMENT empleat (projecte*)>
+<!ATTLIST empleat
+    id ID #REQUIRED
+    nom CDATA #REQUIRED
+    posicio CDATA #REQUIRED>
+<!ELEMENT projecte EMPTY>
+<!ATTLIST projecte
+    id CDATA #REQUIRED
+    nom CDATA #REQUIRED>
+

@@ -1,0 +1,23 @@
+departament > nom {
+    font-weight: bold;
+    color: blue;
+}
+empleat nom {
+    font-style: italic;
+}
+
+empleat edat {
+    color: darkgreen;
+    font-size: 14px;
+}
+
+empleat càrrec{
+background-color: rgb(199, 199, 199);
+text-align: center;
+}
+
+empleat antiguitat {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

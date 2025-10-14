@@ -1,0 +1,6 @@
+/* Estils per a les imatges */
+img {
+    width: 400px;         /* Amplada de 400 píxels */
+    height: auto;         /* Altura automàtica per mantenir la proporció */
+    border: 2px solid black;  /* Bord de 2 píxels de color negre */
+}

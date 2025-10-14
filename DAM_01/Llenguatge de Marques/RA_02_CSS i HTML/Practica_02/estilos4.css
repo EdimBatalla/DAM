@@ -1,0 +1,34 @@
+producte {
+  display: block;
+  width: 200px;
+  padding: 15px;
+  margin: 20px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+/* Posicionem els elements dins de cada producte */
+producte nom {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+producte preu {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Estil per a la caixa general que conté els productes */
+productes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px;
+}

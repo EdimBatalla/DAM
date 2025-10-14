@@ -1,0 +1,11 @@
+<!ELEMENT empresa (departament+)>
+<!ELEMENT departament (empleat+)>
+<!ATTLIST departament
+    nom CDATA #REQUIRED>
+<!ELEMENT empleat (nom, email?)>
+<!ATTLIST empleat
+    id ID #REQUIRED
+    posicio CDATA #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+

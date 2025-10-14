@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "id": { "type": "integer" },
+    "nom": { "type": "string" },
+    "preu": { "type": "number" },
+    "categories": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "enEstoc": { "type": "boolean" }
+  },
+  "required": ["id", "nom", "preu", "enEstoc"],
+  "additionalProperties": false
+}

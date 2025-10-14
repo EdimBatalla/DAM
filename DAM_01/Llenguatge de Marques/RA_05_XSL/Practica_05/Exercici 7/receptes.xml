@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="receptes.xsl"?>
+<receptes>
+    <recepta>
+        <titol>Hummus</titol>
+        <temps>15 minuts</temps>
+        <ingredients>
+            <ingredient>Cigrons</ingredient>
+            <ingredient>Oli d'oliva</ingredient>
+            <ingredient>Llimona</ingredient>
+        </ingredients>
+        <imagen>IMG/img1.jpg</imagen>
+    </recepta>
+    <recepta>
+        <titol>Ceviche</titol>
+        <temps>20 minuts</temps>
+        <ingredients>
+            <ingredient>tomate</ingredient>
+            <ingredient>cebolla</ingredient>
+            <ingredient>pescado</ingredient>
+        </ingredients>
+        <imagen >IMG/img2.jpg</imagen>
+    </recepta>
+    <recepta>
+        <titol>chocoplatano</titol>
+        <temps>5 minuts</temps>
+        <ingredients>
+            <ingredient>chocolate</ingredient>
+            <ingredient>platano</ingredient>
+            <ingredient>azucar</ingredient>
+        </ingredients>
+        <imagen>IMG/img3.jpg</imagen>
+    </recepta>
+</receptes>

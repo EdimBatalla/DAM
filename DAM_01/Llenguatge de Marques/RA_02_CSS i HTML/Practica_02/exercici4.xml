@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilos4.css"?>
+
+<productes>
+<producte>
+<nom>Telèfon mòbil</nom>
+<preu>300€</preu>
+</producte>
+<producte>
+<nom>Tablet</nom>
+<preu>400€</preu>
+</producte>
+</productes>

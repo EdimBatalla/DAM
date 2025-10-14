@@ -1,0 +1,82 @@
+idAtac,nom,tipus,potencia,precisio,usosMaxims
+1,Rayo Burbuja,Aigua,60,100,20
+2,Pulso Agua,Aigua,70,100,20
+3,Burbuja,Aigua,50,100,25
+4,Agua Lodosa,Aigua,80,100,15
+5,Pistola Agua,Aigua,90,100,15
+6,Hidrobomba,Aigua,120,90,10
+7,Pulso Umbrio,Drac,60,100,20
+8,Pulso Dragon,Drac,50,100,25
+9,Dragoaliento,Drac,80,100,20
+10,Garra Dragon,Drac,90,100,15
+11,Cola Dragon,Drac,120,90,10
+12,Chispa,Electric,60,100,20
+13,Trueno,Electric,70,100,25
+14,Onda Trueno,Electric,80,100,20
+15,Punio Trueno,Electric,90,100,15
+16,Impactrueno,Electric,120,90,10
+17,Bola Sombra,Fantasma,50,100,25
+18,Canto Mortal,Fantasma,70,100,20
+19,Garra Umbria,Fantasma,90,100,15
+20,Maldicion,Fantasma,120,90,10
+21,Punio Fuego,Foc,60,100,20
+22,Ascuas,Foc,50,100,25
+23,Lanzallamas,Foc,80,100,20
+24,Llamarada,Foc,90,100,15
+25,Colmillo Fuego,Foc,120,90,10
+26,Colmillo Hielo,Gel,60,100,20
+27,Velo Aurora,Gel,50,100,25
+28,Ventisca,Gel,80,100,20
+29,Rayo Aurora,Gel,90,100,15
+30,Punio Hielo,Gel,120,90,10
+31,Doble Picotazo,Insecte,50,100,25
+32,Zumbido,Insecte,70,100,15
+33,Corte Furia,Insecte,90,100,15
+34,Picotazo Drenaje,Insecte,120,90,10
+35,Mega Punio,Lluita,50,100,20
+36,Punio Cometa,Lluita,70,100,15
+37,Golpe Karate,Lluita,120,90,10
+38,Malicioso,Normal,60,100,20
+39,Teletransporte,Normal,70,100,20
+40,Neblina,Normal,50,100,25
+41,Pantalla Nieblina,Normal,80,100,15
+42,Agarre,Normal,90,100,15
+43,Empuje,Normal,120,90,10
+44,Cornada,Normal,60,100,20
+45,Pantalla Humo,Normal,70,100,20
+46,Grunido,Normal,50,100,25
+47,Rapidez,Normal,80,100,15
+48,Placaje,Normal,90,100,15
+49,Aranazo,Normal,120,90,10
+50,Mordisco,Normal,60,100,20
+51,Golpe Cabeza,Normal,70,100,20
+52,Reduccion,Normal,50,100,25
+53,Refugio,Normal,80,100,15
+54,Destructor,Normal,90,100,15
+55,Luz Dura,Normal,60,100,20
+56,Hipercolmillo,Normal,70,100,20
+57,Doble Filo,Normal,50,100,25
+58,Giro Rapido,Normal,80,100,15
+59,Derribo,Normal,90,100,15
+60,Constriccion,Normal,120,90,10
+61,Somnifero,Planta,50,100,25
+62,Drenadoras,Planta,80,100,15
+63,Latigo Cepa,Planta,90,100,15
+64,Canto Mortal,Planta,120,90,10
+65,Fuerza Mental,Psiquic,60,100,20
+66,Psicorrayo,Psiquic,70,100,20
+67,Confusion,Psiquic,50,100,25
+68,Hipnosis,Psiquic,80,100,15
+69,Pantalla Luz,Psiquic,90,100,15
+70,Amnesia,Psiquic,120,90,10
+71,Lanza Rocas,Roca,50,100,20
+72,Avalancha,Roca,70,100,15
+73,Tumba Rocas,Roca,120,90,10
+74,Ataque Arena,Terra,60,100,20
+75,Excavar,Terra,120,90,10
+76,Picotazo Veneno,Veri,50,100,20
+77,Acido,Veri,70,100,15
+78,Espora,Veri,120,90,10
+79,Picotazo,Volador,50,100,20
+80,Tornado,Volador,70,100,15
+81,Viento Cortante,Volador,120,90,10

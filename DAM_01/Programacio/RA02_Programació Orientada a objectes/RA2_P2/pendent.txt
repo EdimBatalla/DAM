@@ -1,0 +1,49 @@
+
+pokemons
+========
+experiencia actual a -1?  --FET--
+evolucionar
+
+batalla
+======== 
+al cambiar opcion de volver / comprobar que tenemos un pokemon vivo en 1a posicion --FET--
+usar objetos reales /restar usos
+
+batalla entrenador
+======== 
+mensaje cuando el líder cambie de pokemon FET
+ajustar nivell segons el nivell del gimnas FET
+error al mensaje cuando pierdes FET
+no termina batalla al perder FET
+recompensa medallas
+desbloqueig nivel
+
+jugador
+======== 
+implementar medallas - objetos / mostrar
+
+guardar/cargar
+======== 
+guardar medallas
+guardar objetos
+
+tienda
+======== 
+terminar
+
+objectes
+========
+terminar de implementar /metodo correcto captura y curar
+sumar/restar usos)
+
+motxila
+=======
+veure objectes
+
+llegendaris
+=======
+implementar
+
+colores
+=======
+implementar

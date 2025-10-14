@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple d'etiquetes HTML5</title>
+    <style>
+        /* Estils bàsics per distribuir el contingut */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #ddd;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none; /* Eliminem els punts de la llista */
+            padding: 0;
+        }
+        nav ul li {
+            display: inline; /* Col·loquem els elements de la llista en línia */
+            margin: 0 15px; /* Afegim espai entre els enllaços */
+        }
+        main {
+            display: flex;
+            margin: 20px;
+        }
+        article {
+            flex: 3;
+            padding: 20px;
+            background-color: #f4f4f4;
+            margin-right: 20px;
+        }
+        aside {
+            flex: 1;
+            padding: 20px;
+            background-color: #e0f7fa;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fce4ec;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Aquest és l'encapçalament del lloc web (header)</h1>
+        <p>Conté el títol i el menú de navegació.</p>
+    </header>
+
+    <!-- NAV -->
+    <nav>
+        <p>Navegació principal (nav):</p>
+        <ul>
+            <li><a href="#">Inici</a></li>
+            <li><a href="#">Sobre nosaltres</a></li>
+            <li><a href="#">Contacte</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTINGUT PRINCIPAL I ASIDE AL COSTAT -->
+    <main>
+        <h2>Contingut principal del lloc (main)</h2>
+        
+        <!-- ARTICLE -->
+        <article>
+            <h2>Un article d'exemple (article)</h2>
+            <p>Aquest és un article independent que pot ser una publicació de blog, una notícia o qualsevol cosa que es pot compartir.</p>
+
+            <!-- SECTION DINS L'ARTICLE -->
+            <section>
+                <h3>Secció d'informació temàtica (section)</h3>
+                <p>Una secció dins l'article que organitza el contingut en parts més petites.</p>
+            </section>
+        </article>
+
+        <!-- ASIDE -->
+        <aside>
+            <h3>Informació complementària (aside)</h3>
+            <p>Aquest contingut està relacionat amb el tema principal, però es col·loca al lateral com a informació addicional.</p>
+        </aside>
+    </main>
+
+    <!-- FIGURE I FIGCAPTION -->
+    <figure>
+        <img src="https://via.placeholder.com/150" alt="Imatge d'exemple">
+        <figcaption>Llegenda per la imatge (figcaption)</figcaption>
+    </figure>
+
+    <!-- MARK -->
+    <p>Aquest és un exemple de text amb <mark>ressaltat (mark)</mark> per indicar importància.</p>
+
+    <!-- TIME -->
+    <p>La data actual és: <time datetime="2024-10-21">21 d'octubre de 2024</time> (time).</p>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Aquest és el peu de pàgina (footer). Conté informació sobre l'autor i drets d'autor.</p>
+    </footer>
+
+</body>
+</html>
+

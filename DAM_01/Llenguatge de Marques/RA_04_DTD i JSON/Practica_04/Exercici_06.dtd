@@ -1,0 +1,9 @@
+<!ELEMENT classe (nom, alumnes)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT alumnes (alumne+)>
+<!ELEMENT alumne EMPTY>
+<!ATTLIST alumne
+    id ID #REQUIRED
+    nom CDATA #IMPLIED>
+
+

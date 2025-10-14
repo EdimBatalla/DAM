@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercici 15 JSON</title>
+    
+</head>
+<body>
+<header>
+    <h1>Exercici_15</h1>
+   </header>
+<main>
+
+    <form id="loginForm">
+        <h4>FORMULARI:</h4>
+        <input type="text" id="usuari" placeholder="Usuari" required>
+        <input type="password" id="contrasenya" placeholder="Contrasenya" required>
+        <button type="submit">Entrar</button>
+    </form>
+    <div id="token"></div>
+    <div id="comments"></div>
+
+    <script>
+        const form = document.getElementById('loginForm');
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            document.getElementById('token').innerText = '';
+            document.getElementById('comments').innerHTML = '';
+
+            const usuario = document.getElementById('usuario').value;
+            const contrasenya = document.getElementById('contrasenya').value;
+
+            try {
+                const res = await fetch('/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ usuario, contrasenya })
+                });
+
+                if (res.ok) {
+                    const data = await res.json();
+                    document.getElementById('token').innerText = 'Token: ' + data.token;
+
+                    const commentsRes = await fetch('/comments', {
+                        headers: { 'Authorization': 'Bearer ' + data.token }
+                    });
+                    if (commentsRes.ok) {
+                        const comments = await commentsRes.json();
+                        let html = '<h2>Comentarios:</h2>';
+                        comments.forEach(c => {
+                            html += `<p><strong>${c.name}:</strong> ${c.body}</p>`;
+                        });
+                        document.getElementById('comments').innerHTML = html;
+                    } else {
+                        document.getElementById('comments').innerText = 'Error al obtener comentarios';
+                    }
+                } else {
+                    document.getElementById('token').innerText = 'Error de autenticación';
+                }
+            } catch (error) {
+                console.error(error);
+                document.getElementById('token').innerText = 'Error en la conexión';
+            }
+        });
+    </script>
+</main>
+</body>
+</html>

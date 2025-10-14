@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="poblacio.xsl"?>
+<ciudades>
+    <ciudad>
+       <nombre>Madrid</nombre>
+       <habitantes>3416771</habitantes>
+     </ciudad>
+    <ciudad>
+      <nombre>Barcelona</nombre>
+      <habitantes>1702547</habitantes>
+    </ciudad>
+    <ciudad>
+      <nombre>Valencia</nombre>
+      <habitantes>825948</habitantes>
+    </ciudad>
+    <ciudad>
+      <nombre>Sevilla</nombre>
+      <habitantes>687488</habitantes>
+    </ciudad>
+</ciudades>

@@ -1,0 +1,5 @@
+<!ELEMENT vehicles (vehicle+)>
+<!ELEMENT vehicle ((cotxe | moto), comentari?)>
+<!ELEMENT cotxe (#PCDATA)>
+<!ELEMENT moto (#PCDATA)>
+<!ELEMENT comentari (#PCDATA)>

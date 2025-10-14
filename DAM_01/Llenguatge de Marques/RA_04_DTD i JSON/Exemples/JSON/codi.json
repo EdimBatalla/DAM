@@ -1,0 +1,30 @@
+{
+    "nom": "Joan",
+    "cognom": "Lopez",
+    "edat": 20,
+    "nickname": "SuperLopez",
+    "hobbies": [
+        "viatjar",
+        "córrer",
+        "futbol"
+    ],
+    "adreca": {
+        "direcció": "Bemen 3",
+        "ciutat": "Barcelona"
+    },
+    "casat": true,
+    "contactes": [
+        {
+            "nom": "David",
+            "nickname": "David123"
+        },
+        {
+            "nom": "Miquel",
+            "nickname": "Miki123"
+        },
+        {
+            "nom": "Maria",
+            "nickname": "Maria123"
+        }
+    ]
+}
