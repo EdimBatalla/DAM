@@ -1,0 +1,12 @@
+{
+  "alumnes": [
+    {
+      "nom": "Anna",
+      "nota": 8.5
+    },
+    {
+      "nom": "Bernat",
+      "nota": 7.2
+    }
+  ]
+}

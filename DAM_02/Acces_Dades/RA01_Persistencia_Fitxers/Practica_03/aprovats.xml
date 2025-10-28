@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<llistaAlumnes>
+    <alumne>
+        <nom>Marco</nom>
+        <nota>9.9</nota>
+    </alumne>
+    <alumne>
+        <nom>Núria</nom>
+        <nota>9.1</nota>
+    </alumne>
+    <alumne>
+        <nom>Edim</nom>
+        <nota>8.9</nota>
+    </alumne>
+    <alumne>
+        <nom>Anna</nom>
+        <nota>8.5</nota>
+    </alumne>
+    <alumne>
+        <nom>Laia</nom>
+        <nota>8.2</nota>
+    </alumne>
+    <alumne>
+        <nom>Maria</nom>
+        <nota>7.5</nota>
+    </alumne>
+    <alumne>
+        <nom>Bernat</nom>
+        <nota>7.2</nota>
+    </alumne>
+    <alumne>
+        <nom>Marc</nom>
+        <nota>6.9</nota>
+    </alumne>
+    <alumne>
+        <nom>Jordi</nom>
+        <nota>5.0</nota>
+    </alumne>
+</llistaAlumnes>

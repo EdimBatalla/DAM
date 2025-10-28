@@ -1,20 +1,14 @@
-package Paquet1;
+package perist.dades.xml.json;
 
 import java.io.Serializable;
+
 import jakarta.xml.bind.annotation.XmlRootElement;
-
 @XmlRootElement
-
-//Clase alumne serialitzable
-public class Alumne implements Serializable{
-    private static final long serialVersionUID = 1L;
-
+public class Alumne implements Serializable{//Clase alumne serialitzable
     public String nom;
     public double nota;
     public Alumne() {
-    }
-    
-    // Constructor buit per JAXB
+    } // Constructor buit per JAXB
     public Alumne(String nom, double nota) {
     this.nom = nom;
     this.nota = nota;

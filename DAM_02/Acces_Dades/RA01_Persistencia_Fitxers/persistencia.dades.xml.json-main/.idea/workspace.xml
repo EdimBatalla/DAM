@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3893b0dd-b632-482b-a2b6-aeea646ce16e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exercicis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicis/src/main/java/perist/dades/xml/json/GestorJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicis/src/main/java/perist/dades/xml/json/GestorJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicis/target/classes/perist/dades/xml/json/Alumne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicis/target/classes/perist/dades/xml/json/ExempleJAXB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicis/target/classes/perist/dades/xml/json/GestorDades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicis/target/classes/perist/dades/xml/json/GestorJAXB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicis/target/classes/perist/dades/xml/json/GestorJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicis/target/classes/perist/dades/xml/json/LlistaAlumnes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicis/target/classes/perist/dades/xml/json/Main.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="34CdojmSdjFlC61IFfzaODRsZO5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3893b0dd-b632-482b-a2b6-aeea646ce16e" name="Changes" comment="" />
+      <created>1760721667425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760721667425</updated>
+      <workItem from="1760721681215" duration="277000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

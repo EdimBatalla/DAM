@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<llistaAlumnes>
+    <alumne>
+        <nom>Anna</nom>
+        <nota>8.5</nota>
+    </alumne>
+    <alumne>
+        <nom>Bernat</nom>
+        <nota>7.2</nota>
+    </alumne>
+</llistaAlumnes>
